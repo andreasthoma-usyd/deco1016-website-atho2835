@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap');
 
+/*Page styles*/
 * {
     transition: 0.3s;
 }
@@ -58,13 +59,8 @@ body {
     border: 0px;
 }
 
-/* @media only screen and (min-width: 600px) {
-    h2 {
-        font-size: 2vw;
-    }
-} */
 
-/* NAVBAR STYLES*/
+
 /* NAVBAR STYLES*/
 .topnav {
     background-color: white;
@@ -118,7 +114,7 @@ body {
 
 }
 
-
+/*CTA styles*/
 .red-cta {
     background-color: #f1868f;
     color: white;
@@ -212,7 +208,7 @@ body {
     color: #c0c0c0;
 
 }
-
+/*Form input styles*/
 .FormInput {
     padding: 10px 10%;
     margin-left: auto;
@@ -299,14 +295,4 @@ body {
     border-radius: 50%;
     display: inline-block;
     opacity: 0.5;
-}
-
-/* Mark the active step: */
-.step.active {
-    opacity: 1;
-}
-
-/* Mark the steps that are finished and valid: */
-.step.finish {
-    background-color: #4CAF50;
 }
