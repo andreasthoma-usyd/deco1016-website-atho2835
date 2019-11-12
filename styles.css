@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap');
+
+/*Responsive Resize */
+
+* {
+    transition: 0.3s;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+
+li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 2vw;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 4vw;
+}
+
+h2 {
+    font-size: 3vw;
+}
+
+h3 {
+    font-size: 2vw;
+}
+
+html {
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    border: 0px;
+}
+
+div {
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    border: 0px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    border: 0px;
+}
+
+/* @media only screen and (min-width: 600px) {
+    h2 {
+        font-size: 2vw;
+    }
+} */
+
+/* NAVBAR STYLES*/
+.topnav {
+    background-color: white;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    font-family: 'Open Sans';
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    font-size: 2vw;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav .active {
+    color: #db0011;
+}
+
+/* RED BACKGROUND STYLES*/
+
+.red-background {
+    background-color: #db0011;
+    position: absolute;
+    z-index: -1;
+    padding-left: 100%;
+    padding-top: 35%;
+
+}
+
+/* BUTTONs STYLING*/
+
+.white-cta {
+    background-color: white;
+    border: none;
+    color: #db0011;
+    padding: 3px 18px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2.4vw;
+    display: inline-block;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+    border-radius: 20px;
+    z-index: 0;
+    position: absolute;
+    right: 50%;
+    margin-top: 29%;
+    transition: 0.3s;
+}
+
+.white-cta:hover {
+    background-color: rgb(255, 255, 255);
+    color: #f1868f;
+}
+
+.red-cta {
+    background-color: #db0011;
+    color: white;
+    padding: 3px 18px;
+    text-align: center;
+    font-size: 2.5vw;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+    border-radius: 20px;
+    z-index: 0;
+    display: block;
+    margin: auto;
+    margin-top: 7.5%;
+    margin-bottom: 7.5%;
+    transition: 0.3s;
+}
+
+.red-cta:hover {
+    background-color: #f1868f;
+
+}
+
+.grey-cta {
+    background-color: #c0c0c0;
+    color: white;
+    padding: 3px 18px;
+    border: none;
+    text-align: center;
+    font-size: 2.5vw;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+    border-radius: 20px;
+    z-index: 0;
+    display: block;
+    margin: auto;
+    margin-top: 7.5%;
+    margin-bottom: 15%;
+    transition: 0.3s;
+}
+
+.grey-cta:hover {
+    background-color: rgb(226, 226, 226);
+
+}
+
+/* HOMEPAGE icon styliing*/
+
+.homepage-icon {
+    position: relative;
+    margin-top: 5%;
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Build Savings*/
+
+.icon-info {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.secondary-info {
+    margin-top: 10%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
