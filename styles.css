@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap');
 
-/*Responsive Resize */
+/*Page styles */
 
 * {
     transition: 0.3s;
@@ -54,11 +54,6 @@ body {
     border: 0px;
 }
 
-/* @media only screen and (min-width: 600px) {
-    h2 {
-        font-size: 2vw;
-    }
-} */
 
 /* NAVBAR STYLES*/
 .topnav {
